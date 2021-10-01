@@ -3,7 +3,7 @@ let i = 0, j = 0;
 
 
 function setup() {
-    createCanvas(800, 500);
+    createCanvas(1400, 700);
     for(let i = 1; i < width/25; i++){
         values[i] = random(0, height-10);
     }
